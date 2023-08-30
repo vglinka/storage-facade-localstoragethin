@@ -42,6 +42,11 @@ will create such keys in localStorage:
 
 ![localStorage](https://raw.githubusercontent.com/vglinka/storage-facade-localstoragethin/main/assets/localStorage.png)
 
+If you need virtual storages inside `localStorage` that can be cleared without
+affecting other data stored in `localStorage`, use library
+[storage-facade-localstorage](https://www.npmjs.com/package/storage-facade-localstorage)
+instead.
+
 # Usage
 
 ## Storage methods
