@@ -72,14 +72,13 @@ Default values are not stored in the storage, but in the instance.
 import { createStorage } from 'storage-facade';
 import { LocalStorageThin } from 'storage-facade-localstoragethin';
 
-// Do not create more than one instance at the same time
 const storage = createStorage({
-  use: new LocalStorageThin(),  
+  use: new LocalStorageThin(),
+  // If you are using a cache,
+  // do not create more than one instance at the same time
   useCache: true, // false by default
 });
 
-// If an initialization error occurs,
-// it will be thrown on the first attempt to read/write
 try {
   // Write value
   storage.value = { data: [40, 42] };
