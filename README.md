@@ -10,7 +10,7 @@ the actual storage implementation.
 ## Installation
 
 ```sh
-npm install storage-facade@4 storage-facade-localstoragethinthin@1
+npm install storage-facade@4 storage-facade-localstoragethin@1
 ```
 
 # Data structure
