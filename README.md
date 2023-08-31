@@ -1,4 +1,4 @@
-# 🔥 Storage facade localStorage
+# 🔥 Storage facade localStorage: LocalStorageThin
 
 An simple way to store data in localStorage.
 Supports caching, iteration and default values.
